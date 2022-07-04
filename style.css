@@ -12,6 +12,10 @@ h1 {
   color: orange;
 }
 
+p {
+  color: #6e6b69;
+}
+
 .banner-section {
   display: flex;
   background-image: url('images/top-banner.png');
@@ -39,4 +43,44 @@ h1 {
 
 .dream-section {
   display: flex;
+  background-image: url('images/dream-bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 120px;
+}
+
+.flexible-container {
+  display: flex;
+  background-image: url('images/exp-bg.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.box-section {
+  height: 400px;
+  width: 600px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* padding: 10px; */
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.box-section h3 {
+  color: orange;
+}
+
+.one {
+  border-left: 7px solid #ff6347;
+}
+.two {
+  border-left: 7px solid #9147ff;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+Footer {
+  margin-top: 80px;
+  text-align: center;
 }
